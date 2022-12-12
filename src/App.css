@@ -1,38 +1,143 @@
 .App {
   text-align: center;
+  margin: 0 100px;
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.parent {
+  display: flex;
+  align-items: center;
+  background-image: url("https://pbs.twimg.com/media/FjiXImXXgAcP1ke?format=png&name=900x900");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.outer10 {
+  display: grid;
+  place-items: flex-end;
+  justify-content: space-between;
+  border: 2px solid #ccc;
+  background-image: url("https://pbs.twimg.com/media/FjzKggbX0AAfVij?format=png&name=360x360");
+  background-size: auto;
+  background-repeat: no-repeat;
+  z-index: 2000;
+  background-position: center;
+  background-color: rgb(241, 236, 236, 0.2);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h5,
+p {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.teste {
+  position: relative;
+  text-align: left;
+  top: 0.5rem;
+}
+
+.month {
+  position: relative;
+  top: -0.5rem;
+}
+
+hr {
+  width: 250px;
+}
+
+.months-parent {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.months {
+  height: 350px;
+  width: 25px;
+  border-radius: 15px;
+  border: 0.5px solid #333;
+  background-color: #fff;
+  margin: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inner10 {
+  background: #f2994a;
+  background: -webkit-linear-gradient(to right, #f2c94c, #f2994a);
+  background: linear-gradient(to right, #f2c94c, #f2994a);
+  border-radius: 0px 0px 120px 120px;
+  opacity: 0.6;
+  z-index: 100000;
+  width: 250px;
+  height: 117px;
+  background-position: center;
+  z-index: 1;
+  position: relative;
+}
+
+.outer20 {
+  display: grid;
+  background-image: url("https://pbs.twimg.com/media/FjzKggbX0AAfVij?format=png&name=360x360");
+  background-repeat: no-repeat;
+  z-index: 2000;
+  background-position: center;
+  place-items: flex-end;
+  background-color: #636363;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.checked {
+  width: 25px;
+  height: 27px;
+  display: grid;
+  place-items: center;
+  border: 10px solid #d8a633;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  color: #d8a633;
+  margin-left: -0.6rem;
+}
+
+.inner20 {
+  background: #f2994a;
+  background: -webkit-linear-gradient(to right, #f2c94c, #f2994a);
+  background: linear-gradient(to right, #f2c94c, #f2994a);
+  border-radius: 0px 0px 120px 120px;
+  opacity: 0.6;
+  width: 250px;
+  height: 157px;
+  border-radius: 15px 14px 125px 125px;
+}
+
+.outer30 {
+  display: grid;
+  background-image: url("https://pbs.twimg.com/media/FjzKggbX0AAfVij?format=png&name=360x360");
+  background-repeat: no-repeat;
+  z-index: 2000;
+  background-position: center;
+  place-items: flex-end;
+  background-color: #636363;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+.inner30 {
+  background: #f2994a;
+  background: -webkit-linear-gradient(to right, #f2c94c, #f2994a);
+  background: linear-gradient(to right, #f2c94c, #f2994a);
+  border-radius: 0px 0px 120px 120px;
+  opacity: 0.6;
+  width: 80px;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
 }
